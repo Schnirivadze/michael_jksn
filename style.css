@@ -1,0 +1,61 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: "JosefinSans";
+    src: url("./src/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+    }
+
+#main_img{
+    width: 30vw;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    align-self: center;
+}
+#first_text{
+    font-family: JosefinSans;
+    font-size:15vh;
+
+    align-self: center;
+    display: flex;
+    justify-content: center;
+
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 20vh;
+}
+
+
+#options{
+    width: 80vw;
+    height:40vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 9vw;
+    margin-bottom: 20vh;
+}
+.option{
+    width: 39vw;
+    height: 38vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+#biography_option{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#music_option{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
