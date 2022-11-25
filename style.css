@@ -51,7 +51,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     transition: filter 0.3s,width .5s,opacity .1s;
 
 }
@@ -78,4 +78,15 @@
     width:0vw;
     border-radius: 10px;
     opacity: 0;
+}
+#timeline_div{
+    margin-top:-21vh;
+    padding-top: 0vh;
+    overflow: hidden;
+    transition: height 10s;
+    
+}
+.opened_timeline{
+    height: 5500vh;
+    display: block;
 }

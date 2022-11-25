@@ -1,0 +1,99 @@
+.music_div{
+    margin-top: -20vh;
+    width: 94vw;
+    height: 100vh;
+    background-color: transparent;
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2vw;
+}
+.music_div_child{
+    background-color: white;
+    height: 95vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+}
+#player_div{
+    width: 30vw;
+    overflow: hidden;
+}
+#list_div{
+    width: 60vw;
+}
+
+.album_cover{
+    filter: contrast(1.5);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 30vw;
+}
+.song_name{
+    position: relative;
+    top: 1vw;
+    width: 30vw;
+    text-align: center;
+    font-size: xx-large;
+}
+.player_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+.player_buttons img{
+    width: 4vw;
+}
+
+#music_range{
+    
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 80%;
+    height: 1.5vh;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    background-image: linear-gradient(#000000, #000000);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 1px black;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+#music_range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 1.5vh;
+    width: 1.5vh;
+    cursor: ew-resize;
+  }
+  .timecode{
+    position: relative;
+    top: -2.75vh;
+    left: 25.5vw;
+    font-size: large;
+  }
+  .music_list_child{
+    width: 56vw;
+    height: 9vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    box-sizing: content-box;
+  border-bottom-width: 0.5vh;
+  border-bottom-style: solid;
+  border-image: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(195,195,195,1) 50%, rgba(255,255,255,1) 100%);
+  border-image-slice: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: filter 0.3s;
+  background-color: white;
+  }
+  .music_list_child h1 {
+    width: 60%;
+}
+.music_list_child h2 {
+    text-align: left;
+}
